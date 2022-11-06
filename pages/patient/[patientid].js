@@ -9,7 +9,7 @@ const patientData = () => {
   const { patientid } = router.query;
   return (
     <div className={styles.patientWrapper}>
-      {openForm && <Addsection />}
+      {openForm && <Addsection setOpenForm={setOpenForm}/>}
       <div className={styles.patientSecondaryHeader}>
         <nav className={styles.patientSecondaryHeaderNavbar}>
           <button>Back</button>
