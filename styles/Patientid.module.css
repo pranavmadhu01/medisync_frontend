@@ -1,13 +1,11 @@
 .patientWrapper {
   display: flex;
   flex-direction: column;
-  background-color: aqua;
   min-height: 100vh;
   padding-top: 80px;
 }
 .patientSecondaryHeader {
   width: 100%;
-  background-color: antiquewhite;
   min-height: 50px;
 }
 .patientSecondaryHeaderNavbar{
@@ -19,21 +17,21 @@
 .patientInnerDataWrapper {
   display: flex;
   height: calc(100vh - 130px);
-  background-color: black;
 }
 .patientPagePatientCardWrapper{
   flex:0.2;
   height:100%;
-  background-color: blue;
 }
 .patientPagePatientTimelineWrapper{
   flex:0.6;
   height:100%;
-  background-color: blueviolet;
+  overflow-y:scroll;
+}
+.patientPagePatientTimelineWrapper::-webkit-scrollbar{
+  display: none;
 }
 .patientPagePatientCalenderWrapper{
   flex:0.2;
   height:100%;
-  background-color:brown;
 } 
 
