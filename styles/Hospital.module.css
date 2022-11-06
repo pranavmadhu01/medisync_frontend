@@ -1,0 +1,17 @@
+.body {
+    margin-top: 80px;
+    max-width: 1300px;
+}
+.titleContainer {
+    display: flex;
+    align-items: center;
+}
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    min-width: 150px;
+}
+.titleLine{
+    border: 2px solid black;
+    width: 100%;
+}

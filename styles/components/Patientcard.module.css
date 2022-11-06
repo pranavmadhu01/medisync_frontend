@@ -1,10 +1,12 @@
 .patientcardWrapper {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   gap: 5px;
+  margin: 10px;
 }
 .patientcardExpander {
+  max-width:600px;
   background-color: white;
   padding: 20px;
   display: flex;

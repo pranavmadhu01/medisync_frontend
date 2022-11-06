@@ -1,11 +1,14 @@
 import { useRouter } from "next/router";
+import Header from "../../components/Header";
 import Patientcard from "../../components/Patientcard";
 import styles from "../../styles/Doctorid.module.css";
 const doctorData = () => {
   const router = useRouter();
   console.log(router.query);
   const { doctorid } = router.query;
-  return (
+  return (<>
+<Header />  
+  
     <div className={styles.doctoridWrapper}>
       <div className={styles.doctoridInnerWrapper}>
         <div className={styles.doctoridPatientWrapper}>
@@ -33,6 +36,7 @@ const doctorData = () => {
         <div className={styles.gradientMask}></div>
       </div>
     </div>
+    </>
   );
 };
 export default doctorData;
