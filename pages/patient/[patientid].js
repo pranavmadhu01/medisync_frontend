@@ -1,4 +1,3 @@
-import Header from "../../components/Header";
 import { useRouter } from "next/router";
 import styles from "../../styles/Patientid.module.css";
 const patientData = () => {
@@ -7,7 +6,6 @@ const patientData = () => {
   const { patientid } = router.query;
   return (
     <div className={styles.patientWrapper}>
-      <Header />
       <div className={styles.patientSecondaryHeader}>
         <nav>
           <button>Back</button>
