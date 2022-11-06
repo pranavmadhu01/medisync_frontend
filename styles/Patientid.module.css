@@ -10,6 +10,12 @@
   background-color: antiquewhite;
   min-height: 50px;
 }
+.patientSecondaryHeaderNavbar{
+  display: flex;
+  align-items: center;
+  padding:10px;
+  justify-content: space-between;
+}
 .patientInnerDataWrapper {
   display: flex;
   height: calc(100vh - 130px);
