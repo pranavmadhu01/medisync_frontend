@@ -21,7 +21,8 @@ const Profile = ({
       >
         <Link href="#">Logout</Link>
       </div>
-      <Avatar src="https://thispersondoesnotexist.com/image" />
+      {/* <Avatar src="https://thispersondoesnotexist.com/image" /> */}
+      <Avatar />
       <div className={styles.profileDescription}>
         <span className={styles.profileWrapperName}>{names}</span>
         <span className={styles.profileWrapperDesignation}>{designation}</span>
