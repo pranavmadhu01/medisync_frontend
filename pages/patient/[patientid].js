@@ -7,8 +7,9 @@ const patientData = () => {
   return (
     <div className={styles.patientWrapper}>
       <div className={styles.patientSecondaryHeader}>
-        <nav>
+        <nav className={styles.patientSecondaryHeaderNavbar}>
           <button>Back</button>
+          <button>Add section</button>
         </nav>
       </div>
       <div className={styles.patientInnerDataWrapper}>
