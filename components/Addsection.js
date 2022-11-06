@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from "../styles/AddSection.module.css"
 export default function Addsection() {
   const [reason, setReason] = useState("");
   const [symptoms, setSymptoms] = useState("");
@@ -8,6 +9,7 @@ export default function Addsection() {
     e.preventDefault();
     // fetch("")
   }
+  console.log('hehe')
   return (
     <div className={styles.addsectionBackgroundMask}>
       <form
