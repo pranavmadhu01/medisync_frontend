@@ -1,0 +1,14 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.searchInput {
+  border: none;
+  outline: none;
+  min-width: 400px;
+  min-height: 30px;
+}

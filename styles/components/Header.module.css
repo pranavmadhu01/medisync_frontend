@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  position: fixed;
+  padding: 30px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.headerTitle{
+  font-weight: 900;
+  font-size: 30px;
+}

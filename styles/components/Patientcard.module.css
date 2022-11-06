@@ -1,0 +1,45 @@
+.patientcardWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.patientcardExpander {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.patientcardExpanded {
+  background-color: white;
+  border-radius: 10px;
+  transform-origin: top;
+  display: none;
+}
+.patientcardExpandedActive {
+  padding:20px;
+  background-color: white;
+  border-radius: 10px;
+  transform: scale(1, 1);
+  transform-origin: top;
+  display: flex;
+  flex-direction: column;
+  transition: all 200ms ease 0s;
+}
+.patientcardUnordered {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profileButton {
+  align-self: flex-end;
+  background-color: #b734fd;
+  padding:10px 20px 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  width: fit-content;
+}

@@ -1,0 +1,41 @@
+.doctoridWrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d5dffd;
+}
+.doctoridInnerWrapper {
+  max-width: 1200px;
+  min-width: 800px;
+  padding: 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+}
+.dummy {
+  min-height: 200px;
+}
+.doctoridPatientWrapper {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-Y: scroll;
+}
+.doctoridPatientWrapper::-webkit-scrollbar{
+  display: none;
+}
+.gradientMask{
+  position: absolute;
+  bottom:0;
+  height: 50px;
+  width:calc(100% - 60px);
+  background-color: black;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #D5DFFD 52.6%);
+}

@@ -1,0 +1,48 @@
+.profileWrapper{
+  display: flex;
+  align-items: center;
+  gap:15px;
+  position: relative;
+}
+.profileDescription{
+  display: flex;
+  flex-direction: column;
+}
+.profileWrapperName{
+  font-weight: 900;
+  font-size: 20px;
+}
+.profileWrapperDesignation{
+  font-size: 15px;
+}
+.profileDropdown{
+  position: absolute;
+  left:0;
+  right:0;
+  top:50px;
+  background-color: white;
+  padding: 10px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  min-height: 50px;
+  cursor: pointer;
+  
+}
+.profileDropdownActive{
+  position: absolute;
+  left:0;
+  right:0;
+  top:50px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  min-height: 50px;
+  cursor: pointer;
+  display: flex;
+
+}
